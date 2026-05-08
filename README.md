@@ -1,88 +1,117 @@
 # Handling Data
 
 ## 📌 Project Overview
-This project demonstrates different techniques of Handling Data using multiple datasets such as titanic.csv, orders.csv, and messages.csv.
-The notebook focuses on handling mixed data, date variables, and time variables using Python libraries like Pandas, NumPy, and Datetime functions.
+This project demonstrates different techniques of handling data using multiple datasets such as `titanic.csv`, `orders.csv`, and `messages.csv`.
 
-## 📂 Datasets Used
-titanic.csv
-orders.csv
-messages.csv
+The notebook focuses on:
+- Handling mixed data
+- Handling date variables
+- Handling time variables
+- Feature engineering using Pandas and Datetime functions
 
-## 🔹 Handling Mixed Data (titanic.csv)
+---
+
+# 📂 Datasets Used
+
+- `titanic.csv`
+- `orders.csv`
+- `messages.csv`
+
+---
+
+# 🔹 Handling Mixed Data (`titanic.csv`)
+
 In this section, mixed data containing both numerical and categorical values in a single column was handled.
 
-✅ Tasks Performed
-Identified columns containing mixed data types
-Split one mixed column into:
+## ✅ Tasks Performed
+
+- Identified columns containing mixed datatype values
+- Split one mixed column into:
   - Numerical column
   - Categorical column
-Performed preprocessing and cleaning on extracted columns
+- Cleaned and transformed extracted values
+- Performed preprocessing on separated columns
 
-🛠 Techniques Used
-String operations
-Regular Expressions
-Pandas column transformation
+## 🛠 Techniques Used
 
+- String Operations
+- Regular Expressions
+- Pandas Transformations
 
+---
 
-## 🔹 Handling Date Variables (orders.csv)
-Different date-related features were extracted from the dataset using Pandas datetime functions.
-✅ Features Extracted
-    Year
-    Month
-    Date
-    Name of Month
-    Day Number of Week
-    Name of Day
-    Is Weekend?
-    Week of Year
-    Quarter of Year
-    Semester
-    Time elapsed between current date and given date
-    Number of months passed
+# 🔹 Handling Date Variables (`orders.csv`)
 
-🛠 Functions Used
-    pd.to_datetime()
-    .dt.year
-    .dt.month
-    .dt.day
-    .dt.day_name()
-    .dt.month_name()
-    .dt.isocalendar()
-    Timedelta operations
+Different useful date-related features were extracted from the dataset.
 
+## ✅ Features Extracted
 
-## 🔹 Handling Time Variables (messages.csv)
-In this section, different components of time were extracted and analyzed.
-✅ Features Extracted
-      Hour
-      Minutes
-      Seconds
-      AM/PM Time Format
-      Time Differences
-      Duration Calculations
+- Year
+- Month
+- Date
+- Name of Month
+- Day Number of Week
+- Name of Day
+- Is Weekend?
+- Week of Year
+- Quarter of Year
+- Semester
+- Time elapsed between current date and given date
+- Number of months passed
 
-🛠 Functions Used
-      .dt.hour
-      .dt.minute
-      .dt.second
-      Time difference calculations using datetime
+## 🛠 Functions Used
 
+- `pd.to_datetime()`
+- `.dt.year`
+- `.dt.month`
+- `.dt.day`
+- `.dt.day_name()`
+- `.dt.month_name()`
+- `.dt.isocalendar()`
+- Timedelta operations
 
-## 📊 Libraries Used
-Pandas
-NumPy
-Datetime
+---
 
+# 🔹 Handling Time Variables (`messages.csv`)
 
-## 🎯 Key Learnings
-Handling mixed datatype columns
-Working with datetime objects
-Extracting useful date and time features
-Performing feature engineering on temporal data
-Understanding real-world preprocessing techniques
+In this section, various time components were extracted and analyzed.
 
+## ✅ Features Extracted
 
-## 🚀 Conclusion
-This project provides practical implementation of handling mixed, date, and time data for machine learning and data preprocessing tasks. It helps in understanding feature engineering techniques commonly used in real-world datasets.
+- Hour
+- Minutes
+- Seconds
+- AM/PM Time Format
+- Time Difference
+- Duration Calculations
+
+## 🛠 Functions Used
+
+- `.dt.hour`
+- `.dt.minute`
+- `.dt.second`
+- Datetime difference operations
+
+---
+
+# 📊 Libraries Used
+
+- Pandas
+- NumPy
+- Datetime
+
+---
+
+# 🎯 Key Learnings
+
+- Handling mixed datatype columns
+- Working with datetime objects
+- Extracting meaningful date and time features
+- Performing feature engineering
+- Understanding real-world preprocessing techniques
+
+---
+
+# 🚀 Conclusion
+
+This project demonstrates practical implementation of handling mixed, date, and time data using Python and Pandas. It provides a strong foundation for data preprocessing and feature engineering in machine learning projects.
