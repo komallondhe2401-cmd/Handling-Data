@@ -1,4 +1,5 @@
-**Handling Data**
+# Handling Data
+
 ## 📌 Project Overview
 This project demonstrates different techniques of Handling Data using multiple datasets such as titanic.csv, orders.csv, and messages.csv.
 The notebook focuses on handling mixed data, date variables, and time variables using Python libraries like Pandas, NumPy, and Datetime functions.
