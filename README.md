@@ -1,14 +1,14 @@
-Handling Data
-📌 Project Overview
+**Handling Data**
+## 📌 Project Overview
 This project demonstrates different techniques of Handling Data using multiple datasets such as titanic.csv, orders.csv, and messages.csv.
 The notebook focuses on handling mixed data, date variables, and time variables using Python libraries like Pandas, NumPy, and Datetime functions.
 
-📂 Datasets Used
+## 📂 Datasets Used
 titanic.csv
 orders.csv
 messages.csv
 
-🔹 Handling Mixed Data (titanic.csv)
+## 🔹 Handling Mixed Data (titanic.csv)
 In this section, mixed data containing both numerical and categorical values in a single column was handled.
 
 ✅ Tasks Performed
@@ -18,7 +18,6 @@ Split one mixed column into:
   - Categorical column
 Performed preprocessing and cleaning on extracted columns
 
-
 🛠 Techniques Used
 String operations
 Regular Expressions
@@ -26,7 +25,7 @@ Pandas column transformation
 
 
 
-🔹 Handling Date Variables (orders.csv)
+## 🔹 Handling Date Variables (orders.csv)
 Different date-related features were extracted from the dataset using Pandas datetime functions.
 ✅ Features Extracted
     Year
@@ -53,7 +52,7 @@ Different date-related features were extracted from the dataset using Pandas dat
     Timedelta operations
 
 
-🔹 Handling Time Variables (messages.csv)
+## 🔹 Handling Time Variables (messages.csv)
 In this section, different components of time were extracted and analyzed.
 ✅ Features Extracted
       Hour
@@ -70,13 +69,13 @@ In this section, different components of time were extracted and analyzed.
       Time difference calculations using datetime
 
 
-📊 Libraries Used
+## 📊 Libraries Used
 Pandas
 NumPy
 Datetime
 
 
-🎯 Key Learnings
+## 🎯 Key Learnings
 Handling mixed datatype columns
 Working with datetime objects
 Extracting useful date and time features
@@ -84,5 +83,5 @@ Performing feature engineering on temporal data
 Understanding real-world preprocessing techniques
 
 
-🚀 Conclusion
+## 🚀 Conclusion
 This project provides practical implementation of handling mixed, date, and time data for machine learning and data preprocessing tasks. It helps in understanding feature engineering techniques commonly used in real-world datasets.
